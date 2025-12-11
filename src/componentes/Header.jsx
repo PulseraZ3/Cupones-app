@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default function Header() {
   return (
-<header className="flex items-center justify-center p-4 w-full max-w-full overflow-hidden gap-2">
+<header className="flex items-center justify-center p-4 pt-4 w-full max-w-full overflow-hidden gap-2">
   <div className="flex gap-1 shrink-0">
     <span className="text-2xl animate-pulse">💌</span>
     <span className="text-2xl animate-bounce">🌸</span>
@@ -11,8 +11,8 @@ export default function Header() {
     Cupones
   </h1>
   <div className="flex gap-1 shrink-0">
-    <span className="text-2xl animate-pulse">❤️</span>
-    <span className="text-2xl animate-bounce">✨</span>
+    <span className="text-2xl animate-bounce">🌸</span>
+    <span className="text-2xl animate-pulse">💌</span>
   </div>
 </header>
   );
