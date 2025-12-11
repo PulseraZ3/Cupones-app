@@ -8,7 +8,7 @@ export default function CuponList() {
       {lista.map((cupon) => (
         <div
           key={cupon.id}
-          className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center mt-5" 
+          className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center my-5" 
         >
           <h2 className="font-bold text-black text-xl mb-2">{cupon.titulo}</h2>
           <p className="text-gray-600 text-center mb-2">{cupon.descripcion}</p>
