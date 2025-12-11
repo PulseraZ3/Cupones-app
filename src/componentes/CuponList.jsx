@@ -10,6 +10,12 @@ export default function CuponList() {
           key={cupon.id}
           className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6 flex flex-col items-center my-5" 
         >
+          {cupon.imagen && (
+            <img
+              src={cupon.imagen}
+              className="w-16 h-16 mb-4 object-contain"
+            />
+          )}
           <h2 className="font-bold text-black text-xl mb-2">{cupon.titulo}</h2>
           <p className="text-gray-600 text-center mb-2">{cupon.descripcion}</p>
           <p className="text-gray-800 font-semibold mb-4">{cupon.valor}</p>

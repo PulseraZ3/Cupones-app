@@ -5,7 +5,7 @@ export const lista = [
     descripcion: "Eliges la película, snacks y lo disfrutas conmigo 🍿",
     valor: "Gratis",
     code: "",
-    imagen: ""
+    imagen: "/imagenes/cine96.png"
   },
   {
     id: 2,
@@ -13,15 +13,15 @@ export const lista = [
     descripcion: "Cena especial preparada por mí",
     valor: "huevo frito",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/food.png"
   },
   {
     id: 3,
-    titulo: "Sexo anal",
-    descripcion: "Un masaje relajante de 30 min 💆‍♀️",
-    valor: "30 min",
+    titulo: "Compras",
+    descripcion: "Vamos a comprar lo que tu quieras",
+    valor: "Se buena",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/shopaholic.png"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const lista = [
     descripcion: "El postre que más te guste 🍰",
     valor: "Gratis",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/ice-cream-cone.png"
   },
   {
     id: 5,
@@ -37,39 +37,39 @@ export const lista = [
     descripcion: "Caminata juntos y picnic 🌳",
     valor: "Gratis",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/national-park.png"
   },
   {
     id: 6,
-    titulo: "Tarde de juegos",
-    descripcion: "Videojuegos o juegos de mesa 🎲",
+    titulo: "Roblox",
+    descripcion: "Juegamos el juego de roblox que tu quieras",
     valor: "1 tarde",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/roblox-studio.png"
   },
   {
     id: 7,
-    titulo: "Carta de amor",
-    descripcion: "Una carta escrita por mí 💌",
-    valor: "1 carta",
+    titulo: "Noche de skin care",
+    descripcion: "ya que :c",
+    valor: "1 noche",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/styled-components.png"
   },
   {
     id: 8,
     titulo: "Día de película en casa",
-    descripcion: "Películas y palomitas en casa 🍿🏠",
+    descripcion: "No tengo netflix tu dime",
     valor: "Gratis",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/fire-element--v1.png"
   },
   {
     id: 9,
-    titulo: "Desayuno sorpresa",
-    descripcion: "Desayuno especial hecho por mí 🥞",
-    valor: "1 desayuno",
+    titulo: "Comodin",
+    descripcion: "Tu decides que hacer",
+    valor: "1 vez",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/joker.png"
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const lista = [
     descripcion: "Me bañare",
     valor: "1 sesión",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/pear.png"
   },
   {
     id: 11,
@@ -85,15 +85,15 @@ export const lista = [
     descripcion: "Si estoy enojado de algo, me olvido",
     valor: "1 noche",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/towel.png"
   },
   {
     id: 12,
     titulo: "Día de picnic",
-    descripcion: "Comida al aire libre en el parque",
+    descripcion: "Vamos al parque de la pera",
     valor: "Gratis",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/pear.png"
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const lista = [
     descripcion: "Iremos corriendo",
     valor: "1 tarde",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/running--v1.png"
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const lista = [
     descripcion: "Comeremos esos fideos que me mandan al baño",
     valor: "1 vez :c",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/noodles.png"
   },
   {
     id: 15,
@@ -117,6 +117,6 @@ export const lista = [
     descripcion: "Abrazos y mimos por todo el día 🤗",
     valor: "Todo el día",
     code: "",
-    imagen: ""
+    imagen: "https://img.icons8.com/color/96/hug.png"
   }
 ];
