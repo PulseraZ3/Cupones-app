@@ -1,10 +1,12 @@
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { lista } from "../data/cupones";
+import QRCode from "qrcode.react";
+
 export default function Cupon() {
 const { id } = useParams();
   const navigate = useNavigate();
-
+  const urlCupon = `${window.location.origin}/cupon/${cupon.id}`;
   const cupon = lista.find((c) => c.id === Number(id));
 
   if (!cupon) {

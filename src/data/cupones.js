@@ -13,7 +13,7 @@ export const lista = [
     descripcion: "Cena especial preparada por mí",
     valor: "huevo frito",
     code: "",
-    imagen: "https://img.icons8.com/color/96/food.png"
+    imagen: "https://img.icons8.com/color/144/food.png"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const lista = [
     descripcion: "Vamos a comprar lo que tu quieras",
     valor: "Se buena",
     code: "",
-    imagen: "https://img.icons8.com/color/96/shopaholic.png"
+    imagen: "https://img.icons8.com/color//shopaholic.png"
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ export const lista = [
   {
     id: 5,
     titulo: "Paseo al parque",
-    descripcion: "Caminata juntos y picnic 🌳",
+    descripcion: "Vamos al parque y ya :D",
     valor: "Gratis",
     code: "",
     imagen: "https://img.icons8.com/color/96/national-park.png"
@@ -77,7 +77,7 @@ export const lista = [
     descripcion: "Me bañare",
     valor: "1 sesión",
     code: "",
-    imagen: "https://img.icons8.com/color/96/pear.png"
+    imagen: "https://img.icons8.com/emoji/144/shower-emoji.png"
   },
   {
     id: 11,
