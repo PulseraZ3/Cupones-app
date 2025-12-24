@@ -2,10 +2,11 @@ export const lista = [
   {
     id: 1,
     titulo: "Salida al cine",
-    descripcion: "Eliges la película, snacks y lo disfrutas conmigo 🍿",
+    descripcion: "Eliges la película y lo que quieras comer, yo invito",
     valor: "Gratis",
     code: "",
-    imagen: "/imagenes/cine96.png"
+    imagen: "/imagenes/cine96.png",
+    canjeado: false
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ export const lista = [
     descripcion: "Cena especial preparada por mí",
     valor: "huevo frito",
     code: "",
-    imagen: "https://img.icons8.com/color/144/food.png"
+    imagen: "https://img.icons8.com/color/144/food.png",
+    canjeado: false
   },
   {
     id: 3,
@@ -21,15 +23,17 @@ export const lista = [
     descripcion: "Vamos a comprar lo que tu quieras",
     valor: "Se buena",
     code: "",
-    imagen: "https://img.icons8.com/color//shopaholic.png"
+    imagen: "https://img.icons8.com/color//shopaholic.png",
+    canjeado: false
   },
   {
     id: 4,
     titulo: "Postre favorito",
-    descripcion: "El postre que más te guste 🍰",
+    descripcion: "El postre o comida que se te antoje en el momento",
     valor: "Gratis",
     code: "",
-    imagen: "https://img.icons8.com/color/96/ice-cream-cone.png"
+    imagen: "https://img.icons8.com/color/96/ice-cream-cone.png",
+    canjeado: false
   },
   {
     id: 5,
@@ -37,7 +41,8 @@ export const lista = [
     descripcion: "Vamos al parque y ya :D",
     valor: "Gratis",
     code: "",
-    imagen: "https://img.icons8.com/color/96/national-park.png"
+    imagen: "https://img.icons8.com/color/96/national-park.png",
+    canjeado: false
   },
   {
     id: 6,
@@ -45,7 +50,8 @@ export const lista = [
     descripcion: "Juegamos el juego de roblox que tu quieras",
     valor: "1 tarde",
     code: "",
-    imagen: "https://img.icons8.com/color/96/roblox-studio.png"
+    imagen: "https://img.icons8.com/color/96/roblox-studio.png",
+    canjeado: false
   },
   {
     id: 7,
@@ -53,7 +59,8 @@ export const lista = [
     descripcion: "ya que :c",
     valor: "1 noche",
     code: "",
-    imagen: "https://img.icons8.com/color/96/styled-components.png"
+    imagen: "https://img.icons8.com/color/96/styled-components.png",
+    canjeado: false
   },
   {
     id: 8,
@@ -61,7 +68,8 @@ export const lista = [
     descripcion: "No tengo netflix tu dime",
     valor: "Gratis",
     code: "",
-    imagen: "https://img.icons8.com/color/96/fire-element--v1.png"
+    imagen: "https://img.icons8.com/color/96/fire-element--v1.png",
+    canjeado: false
   },
   {
     id: 9,
@@ -69,7 +77,8 @@ export const lista = [
     descripcion: "Tu decides que hacer",
     valor: "1 vez",
     code: "",
-    imagen: "https://img.icons8.com/color/96/joker.png"
+    imagen: "https://img.icons8.com/color/96/joker.png",
+    canjeado: false
   },
   {
     id: 10,
@@ -77,7 +86,8 @@ export const lista = [
     descripcion: "Me bañare",
     valor: "1 sesión",
     code: "",
-    imagen: "https://img.icons8.com/emoji/144/shower-emoji.png"
+    imagen: "https://img.icons8.com/emoji/144/shower-emoji.png",
+    canjeado: false
   },
   {
     id: 11,
@@ -85,7 +95,8 @@ export const lista = [
     descripcion: "Si estoy enojado de algo, me olvido",
     valor: "1 noche",
     code: "",
-    imagen: "https://img.icons8.com/color/96/towel.png"
+    imagen: "https://img.icons8.com/color/96/towel.png",
+    canjeado: false
   },
   {
     id: 12,
@@ -93,7 +104,8 @@ export const lista = [
     descripcion: "Vamos al parque de la pera",
     valor: "Gratis",
     code: "",
-    imagen: "https://img.icons8.com/color/96/pear.png"
+    imagen: "https://img.icons8.com/color/96/pear.png",
+    canjeado: false
   },
   {
     id: 13,
@@ -101,7 +113,8 @@ export const lista = [
     descripcion: "Iremos corriendo",
     valor: "1 tarde",
     code: "",
-    imagen: "https://img.icons8.com/color/96/running--v1.png"
+    imagen: "https://img.icons8.com/color/96/running--v1.png",
+    canjeado: false
   },
   {
     id: 14,
@@ -109,14 +122,16 @@ export const lista = [
     descripcion: "Comeremos esos fideos que me mandan al baño",
     valor: "1 vez :c",
     code: "",
-    imagen: "https://img.icons8.com/color/96/noodles.png"
+    imagen: "https://img.icons8.com/color/96/noodles.png",
+    canjeado: false
   },
   {
     id: 15,
     titulo: "Abrazos infinitos",
-    descripcion: "Abrazos y mimos por todo el día 🤗",
+    descripcion: "Amog por todo el dia y siempre",
     valor: "Todo el día",
     code: "",
-    imagen: "https://img.icons8.com/color/96/hug.png"
+    imagen: "https://img.icons8.com/color/96/hug.png",
+    canjeado: false
   }
 ];

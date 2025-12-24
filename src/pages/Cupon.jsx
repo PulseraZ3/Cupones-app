@@ -1,15 +1,21 @@
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { lista } from "../data/cupones";
 
-export default function Cupon() {
-const { id } = useParams();
+export default function Cupon({ cupones, canjearCupon }) {
+  const { id } = useParams();
   const navigate = useNavigate();
-  const cupon = lista.find((c) => c.id === Number(id));
+
+  // Buscar el cupón desde el estado de App
+  const cupon = cupones.find(c => c.id === Number(id));
 
   if (!cupon) {
     return <p className="text-center mt-10">Cupón no encontrado 💔</p>;
   }
+
+  const handleConfirmar = () => {
+    canjearCupon(cupon.id); // marca como canjeado
+    navigate("/"); // vuelve al listado
+  };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-pink-50 p-6">
@@ -29,12 +35,17 @@ const { id } = useParams();
         <p className="font-semibold text-gray-800 mb-6">
           {cupon.valor}
         </p>
-        <button
-          onClick={() => alert("Cupón canjeado 💖")}
-          className="w-full bg-[#c7455d] hover:bg-[#a63b4b] text-white font-bold py-4 rounded-2xl mb-3 transition"
-        >
-          Confirmar canje
-        </button>
+
+        {!cupon.canjeado ? (
+          <button
+            onClick={handleConfirmar}
+            className="w-full bg-[#c7455d] hover:bg-[#a63b4b] text-white font-bold py-4 rounded-2xl mb-3 transition"
+          >
+            Confirmar canje
+          </button>
+        ) : (
+          <p className="text-red-500 mb-3">Este cupón ya fue canjeado 💔</p>
+        )}
 
         <button
           onClick={() => navigate(-1)}
