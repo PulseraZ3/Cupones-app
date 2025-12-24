@@ -14,8 +14,8 @@ export default function Home({ cupones, canjearCupon }) {
       <Header />
 
       {/* Cupones Disponibles */}
-      <div className="bg-[#fee6ea] p-6">
-        <h2 className="text-3xl font-bold text-red-600 font-sansita drop-shadow-lg truncate mx-2">Cupones Disponibles</h2>
+      <div className="bg-[#fee6ea] p-6 flex flex-col justify-center">
+        <h2 className="text-3xl font-bold text-red-600 font-sansita drop-shadow-lg truncate mx-2 text-center md:text-left">Cupones Disponibles</h2>
         {disponibles.length > 0 ? (
           <CuponList cupones={disponibles} canjearCupon={canjearCupon}/>
         ) : (
